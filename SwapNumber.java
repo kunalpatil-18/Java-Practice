@@ -1,6 +1,6 @@
 import java.util.*;
 class SwapNumber{
-  public static void main {
+  public static void main(String[] args){
     int a,b,cd;
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter number a:");
@@ -11,9 +11,9 @@ class SwapNumber{
     System.out.println(a+" & "+b);
     cd=a;
     a=b;
-    b=a;
+    b=cd;
 
     System.out.println("Numbers after after Swapping");
-    System.out.println(a+" & +b);
+    System.out.println(a+" & "+b);
   }
 }
